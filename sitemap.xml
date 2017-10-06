@@ -68,6 +68,15 @@
     
     <url>
     
+      <loc>https://antoinearnoud.github.io/project/computational/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://antoinearnoud.github.io/project/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -162,6 +171,16 @@
     <url>
     
       <loc>https://antoinearnoud.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://antoinearnoud.github.io/tags/computational/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
