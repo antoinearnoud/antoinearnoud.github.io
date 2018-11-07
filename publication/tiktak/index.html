@@ -38,6 +38,19 @@
   
 
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-128898523-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
 
   <link rel="alternate" href="" type="application/rss+xml" title="Antoine Arnoud">
   <link rel="feed" href="" type="application/rss+xml" title="Antoine Arnoud">
@@ -146,11 +159,6 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-<div class="article-header">
-  <img src="/img/headers/bubbles-wide.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">My caption 😄</span>
-</div>
-
 
 
   <div class="container pub-title">
@@ -211,7 +219,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">We benchmark the performance of seven popular global optimization routines using both test functions from computational mathematics and a more challenging high-dimensional economic estimation problem.</p>
+  <p class="pub-abstract" itemprop="text">We benchmark seven global and three local algorithms by comparing their performance and speed  in  optimizing difficult objective  functions. We apply the  algorithms to optimize  a small suite  of multidimensional test functions that are commonly used to benchmark algorithms in computational mathematics.  To  understand  optimizers&rsquo;  performance  in  applications  that  are  common  to economics, we apply the same optimizers to maximize the objective function of a GMM estimation problem that targets 297 moments to estimate 7 parameters. Our results show that the reliability and speed of all algorithms vary substantially depending on the dimensionality and characteristics of  the problem.  Experimenting with different algorithms  can therefore be  very  helpful. We  find that StoGo  and Tiki-Taka  Algorithm (Tiktak)  are  most reliable and  computationally  efficient  in the  optimization  of  test  functions.  For  the  economic  estimation,  the  most  reliable  and  efficient algorithms are Multi-Level Single-Linkage and Tiktak</p>
 
   
   <div class="row">
@@ -302,7 +310,7 @@
     
 
     
-    <li class="next"><a href="https://antoinearnoud.github.io/publication/fortran_book/">Fortran For Economists <span
+    <li class="next"><a href="https://antoinearnoud.github.io/publication/transport/">Matching Data with Optimal Transport: Theory and Application to Income Data <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
